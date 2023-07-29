@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "zedbot"
+version = "0.1.0"
+description = "This is a bot inspired by Zed (the greatest programmer on the planet)"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{ include = "zed_bot" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+py-cord = "^2.4.1"
+
+
+[tool.poetry.group.dev.dependencies]
+python-dotenv = "^1.0.0"
+black = "^23.7.0"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
