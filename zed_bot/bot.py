@@ -10,8 +10,8 @@ log = logger.get_logger()
 class ZedBot(discord.Bot):
     def __init__(
         self,
-        description: str=None,
-        intents: discord.Intents=None,
+        description: str = None,
+        intents: discord.Intents = None,
         *args,
         **options,
     ):

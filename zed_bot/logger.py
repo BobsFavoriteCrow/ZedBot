@@ -3,7 +3,8 @@ import logging
 
 from zed_bot.enums import IS_LOCAL
 
-def get_logger(name: str=None):
+
+def get_logger(name: str = None):
     kwargs = {}
     if name:
         kwargs.update({name: name})
